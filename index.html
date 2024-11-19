@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Es MaMang Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" conaztent="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="data:image/png;base64,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"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">TENTANG</a>
+          <a href="#varieties" class="nav-link">VARIETAS</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#benefits" class="nav-link">MANFAAT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrJE6eQ5yvBoKuRYStCMHkqKw1GGTWq0GaFQ&s." alt="Image of Apples" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Segar dan manis yang mempesona.</h1>
+          <h2>
+          100% menggunakan bahan - bahan premium dan import.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+           Beli Sekarang
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ES MAMANG?</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            Es Mamang merupakan kedai kecil pinggir jalan yang menyediakan minuman 
+            kekinian dengan berbagai macam varian rasa yang manis dan menyegarkan 
+            serta tentunya dapat dibeli dengan harga yang terjangkau.
+          </p>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStAd6igW6FN7V9hP7YJd2PL9AUq27j3VuaQg&s">
+
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">VARIAN</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/64157d30-3bd7-4dd2-9d11-8af174f90d09_Go-Biz_20220303_121051.jpeg" alt="photo of amber apples" />
+            <h4>Alpukat Saddnes</h4>
+            <p>
+              Menggunakan buah Alpukat asli dan cream yang creamy serta olesan cokelat yang nikmat.
+            </p>
+            <b>Rp.16.000/cup</b></p> <button class="buy-now-button">BUY NOW</button>
+            
+          </div>
+          <div class="tile">
+            <img
+              src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/644d96e8-4db8-47b7-a092-2e0a064185a1_Go-Biz_20220303_135116.jpeg" alt="photo of american trel apples"/>
+            <h4>Dalgona Taro</h4>
+            <p>
+             Dengan perpaduan antara susu, cream dan taro premium, kamu hanya dapat membeli dikedai kami.
+            </p>
+            <b>Rp.16.000/cup</b></p> <button class="buy-now-button">BUY NOW</button>
+
+          </div>
+          <div class="tile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaDJx9-RuIl0EGswhQUnT6Q8GktTt2P_YkNQ&s" alt="photo of red delicious apple" />
+            <h4>Mocktail Orange</h4>
+            <p>
+            Menggunakan Sirup Orange, Sprite and Jelly Premium, membuat minuman menjadi segar.
+            </p>
+            <b>Rp.16.000/cup</b></p> <button class="buy-now-button">BUY NOW</button>
+
+          </div>
+          <div class="tile">
+            <img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/b8f80a22-6228-4003-be96-2825d03ccf5b_Go-Biz_20220303_134539.jpeg" alt="photo of Dalgona Chocolate" />
+            <h4>Dalgona Chocolat</h4>
+            <p>
+             Perpaduan susu, cream chocolat membuat minuman menjadi manis yang tidak lebayyyyy.
+            </p>
+            <b>Rp.16.000/cup</b></p> <button class="buy-now-button">BUY NOW</button>
+
+          </div>
+          <div class="tile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj37o5CKre81-4jLQo61m2NsFt1AflsJOJrw&s" alt="photo of Oreo Milky" />
+            <h4>Oreo Milky</h4>
+            <p>
+            Menggunkan susu sapi asli dan taburan bubuk oreo diatasnya, menjadikan minuman 
+            yang praktis.
+            </p>
+            <b>Rp.16.000/cup</b></p> <button class="buy-now-button">BUY NOW</button>
+
+          </div>
+          <div class="tile">
+            <img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/488c15f4-f930-44b5-87b8-04f0059f1604_Go-Biz_20220303_134914.jpeg" alt="photo of Golden Delicious apples" />
+            <h4>Es Teh Mamang</h4>
+            <p>
+           Menggunakan Teh premium yang dipetik langsung dan perpaduan gula asli. 
+            </p>
+            <b>Rp.16.000/cup</b></p> <button class="buy-now-button">BUY NOW</button>
+
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">LAYANAN KAMI</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://serupa.id/wp-content/uploads/2022/10/kualitas-produk.jpg" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>KUALITAS PRODUK</h5></h5>
+              <p>Kami menjamin minuman agar tetap segar dan dingin saat diminum sesuai harapan anda.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://png.pngtree.com/png-clipart/20210516/original/pngtree-hijab-character-a-courier-png-image_6284901.jpg" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>PENGIRIMAN CEPAT DAN HEMAT</h5>
+              <p>
+               Kami akan melayani anda secepat mungkin. Kepuasan anda adalah kesenangan bagi kami.
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://logique.s3.ap-southeast-1.amazonaws.com/2021/03/mengukur-kepuasan-pelanggan-1.jpg" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>KENYAMANAN DAN KEPUASAN PELANGGAN</h5>
+              <p>
+                Kami menjamin kepuasan pelanggan 100%. Kami melakukan yang terbaik untuk membuatnya
+                pengalaman pembelian Kamu lancar. Tapi jika kami mengacaukanmu
+                akan mendapat kompensasi atas setiap ketidaknyamanan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="benefits" class="sec-padding">
+        <h3 class="section-heading">MANFAAT</h3>
+        <div class="sec-content-div flexible">
+          <iframe
+            id="video"
+            width="560"
+            title="Benefits of Es Mamang"
+            height="315"
+            src="https://www.youtube.com/embed/SJZvsRXSnOw"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">KONTAK</h3>
+        <div class="sec-content-div flexible">
+          <h6>Untuk melakukan pemesanan atau sekedar mengetahui lebih lanjut hubungi kami:</h6>
+          <form
+            id="form"
+            action="https://wa.me/628123456789"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Alamat Email Kamu.."
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Tahu lebih" /> <br>
+            <a href="https://www.instagram.com/esmamang.id/" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/channel/UCNjWdxQ98G-fOI8cJO3YS6g" class="fa fa-youtube"></a>
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fesmamang" class="fa fa-twitter"></a>
+            <a href="https://web.facebook.com/esmamang.id/?_rdc=1&_rdr" class="fa fa-facebook"></a>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Es MaMang Core</a>
+    </footer>
+  </body>
+</html>
